@@ -1,0 +1,252 @@
+/* css style for html #f55a00*/
+body {
+  margin: 0;
+  
+  
+  font-size: 17px;
+
+/* Navigation and Menu sytle */
+
+}
+.navbar-inverse{
+  background-color:   #FF8000;
+  border-color: white;
+}
+.navbar-inverse .navbar-brand{
+  color: white;
+    letter-spacing: 1px;
+    font-size: 3vw 
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  background-color: #f55a00;
+}
+/* Container of heading and search button */
+
+.first-cont{
+  margin-top: 150;
+  text-align: center;
+}
+.first-cont h1 {
+  font-size: 80px;
+  color: #ff7600;
+  text-align: center;
+  font-weight: bold
+  
+}
+
+.home_search {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  border-color: #e2dddd;
+}
+.home_search:hover{
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-info:hover{
+  color: black; 
+}
+
+/* Media query for mobile responsive view */
+@media (min-width: 667px;)
+{
+  .heading{
+    margin-top: 0px;
+  }
+  .search{
+    width: 70%;
+    margin-left: 50px;
+
+  }
+}
+  @media (max-width: 767px){
+    .btn_link, .link_search{
+      display: none;
+    }
+    .btn_link{
+      position: absolute;
+      left: 52px; 
+    }
+
+}
+}
+
+/* Paragraph style */
+
+.paragraph{
+  font-family: 'Roboto', sans-serif;
+  color: #3e3e42f5;
+  text-align: center;
+}
+
+.paragraph_head{
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+  color: #3e3e42f5;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.gotra_kuldevi {
+  padding-bottom: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+..gotra_kuldevi > a{
+  text-decoration: none;
+  color:orangered;
+}
+
+
+
+/* Footer style */
+.footer {
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  background-color:   #FF8000;
+  position: fixed;   
+  font-size: 14px;
+}
+.footer p {
+  color: white;
+  margin-bottom: 0px;
+  padding: 10px;
+  /*text-align: center;*/
+}
+.footer p > a{
+  color: white;
+  text-decoration: none;
+}
+.footer p > span{
+  font-size: 10px;
+}
+/**********************************/
+/* Gotra page Style */
+/**********************************/
+
+.link_search {
+  margin-top: 9;
+  width: 100%;
+  border-radius: 50px 0 0 50px;
+}
+
+.btn_link{
+  margin-top: 9;
+  border-radius: 0 50px 50px 0;
+  font-size: 20px;
+}
+
+.gotra_head {
+  margin-top: 100;
+  color: orangered;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.kuldevi_head, .location{
+  color: orangered;
+  font-family: 'Work Sans', sans-serif;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        width: 20%;
+  }
+.gotra_content,.Kuldevi_content, .gotra list{
+      color: #3e3e42f5;
+      font-size: 100%;
+      font-family: 'Roboto', sans-serif;
+      text-align: justify;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 70px; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    /*height: 100%;*/
+    width: 100%;
+}
+.gotra_head h1, .kuldevi_head h1,.gotra_head h3, .kuldevi_head h3,.kuldevi_head2 , .location h3 {
+  font-size: 35px;
+}
+
+/**********************/
+/* Kuldevi page style */
+/**********************/
+
+.kuldevi_head2 {
+  margin-top: 100;  
+  color: orangered;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.gotra_head2, .location{
+  color: orangered;
+  font-family: 'Work Sans', sans-serif; 
+  text-decoration: none;
+}
+  
+}
+.gotra_head2 h3 {
+  font-size: 35px;
+}
+
+.Kuldevi_content {
+  text-align: justify;
+  color: #3e3e42f5
+  font-family: 'Roboto', sans-serif;
+}
+
+ a{
+  color: orangered;
+  font-family: 'Quicksand', sans-serif;
+ }
+
+
+.symbol a< i {
+  color: black;
+  text-decoration: none;
+}
+
+.gotra_head2 i {
+  color: black;
+  margin-right: 10px;
+}
+
+.link_search_mobile, .btn_link_mobile {
+  display: none;
+}
+
+@media (max-width: 767px){
+  .link_search_mobile {
+    display: block;
+    width: 80%;
+    border-radius: 50px 0 0 50px;
+    float: left;
+  } 
+  .btn_link_mobile{
+    display: block;
+    width: 20%
+    border-radius: 0 50px 50px 0;
+    /*padding-bottom: 10px;*/
+    float: left;
+  }
+}
+
+@media (min-width: 767px){
+.mobile_search{
+  display: none;
+}
+}
